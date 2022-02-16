@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 
 function BlogDetails(){
-
+    // throws error in this file 
     // const {id} = useParams()
 
     return (  
