@@ -3,6 +3,8 @@ import Home from './home';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Create from './Create';
 import BlogDetails from './BlogDetails';
+import Login from './login';
+import Signup from './signup';
 function App() {
 
   // const person = {name:'yoshi', age:30}
@@ -13,13 +15,20 @@ function App() {
      <div className="content">
        {/* <h1>App Component</h1> */}
       <Switch>
+        <Route path = "/login">
+        <Login/>
+        </Route>
+       
+        <Route path = "/signup">
+          <Signup/>
+        </Route>
         <Route exact path = "/"> 
            <Home/> 
         </Route>
         <Route path = "/create"> 
            <Create/> 
         </Route>
-        <Route path = "/blog/:id"> 
+        <Route path = "/blogs/:id"> 
            <BlogDetails /> 
         </Route>
       </Switch>

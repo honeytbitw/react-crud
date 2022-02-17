@@ -1,7 +1,22 @@
 {
-    "blogs":[
-      { "title": "My new website", "body": "lorem ipsum...", "author": "mario", "id": 1 },
-      { "title": "Attention Marley", "body": "lorem ipsum...", "author": "ymir", "id": 2 },
-      { "title": "PokeGod", "body": "lorem ipsum...", "author": "arceus", "id": 3 }
-    ]
+  "blogs": [
+    {
+      "title": "My new website",
+      "body": "lorem ipsum...",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "Attention Marley",
+      "body": "lorem ipsum...",
+      "author": "ymir",
+      "id": 2
+    },
+    {
+      "title": "PokeGod",
+      "body": "lorem ipsum...",
+      "author": "arceus",
+      "id": 3
     }
+  ]
+}
