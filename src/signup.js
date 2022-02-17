@@ -60,7 +60,7 @@ class Signup extends Component {
                 />
                 <Form.Control.Feedback type="invalid"></Form.Control.Feedback>
               </Form.Group>
-            </Form>
+            </Form> 
             <Button 
               color="primary"
               onClick={this.onSignupClick}  
